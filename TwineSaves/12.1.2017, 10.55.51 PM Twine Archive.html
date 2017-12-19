@@ -1,0 +1,114 @@
+<tw-storydata name="INTE.R.E.ST. Program" startnode="1" creator="Twine" creator-version="2.1.3" ifid="75A96632-C81E-406D-9E6C-9BFF143C085F" format="SugarCube" format-version="2.18.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("https://isidney.github.io/INTEREST/fonts/stylesheet.css");
+
+body, tw-story  {
+font-family: "ocramedium";
+  color: #00c3ff;
+  font-size: 18px;
+	
+}
+
+a {
+  color: #00c3ff;
+  background-color: #002d3b;
+}
+a:hover {
+  color: #00c3ff;
+  background-color: #004256;
+  text-decoration: none;
+}
+
+body {
+  background-color: #00151C;
+}
+ 
+body.screen {
+  text-align: center; 
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Character Selection" tags="screen" position="289,267">[[Agost]]											[[Finley Wadsworth]]</tw-passagedata><tw-passagedata pid="2" name="Finley Wadsworth" tags="" position="216,417">Hi! Welcome to the Interactive and Reflexive Experiment system. I&#x27;m Finley Wadsworth and i&#x27;m your personnal assistant.</tw-passagedata><tw-passagedata pid="3" name="Agost" tags="" position="366,417">Hi. Is anybody [[here]] ?</tw-passagedata><tw-passagedata pid="4" name="here" tags="" position="366,567">Am I alone ?
+I you&#x27;re here please give me a [[sign]].
+I&#x27;m stuck in the other side of the screen.</tw-passagedata><tw-passagedata pid="5" name="sign" tags="" position="363,715">I&#x27;m [[trap]] inside a supercomputer imagination.</tw-passagedata><tw-passagedata pid="6" name="trap" tags="" position="498,852">ERROR404 THERE IS NOTHING HERE...</tw-passagedata></tw-storydata>
+
+<tw-storydata name="No Man&#x27;s Sky - The Twine Update" startnode="1" creator="Twine" creator-version="2.1.3" ifid="4F8ADB8F-AEF5-4251-ACAE-61A3DB042441" format="SugarCube" format-version="2.18.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="Initialise" tags="" position="400,200">[[INITIALISE|Initialisation]]</tw-passagedata><tw-passagedata pid="2" name="Initialisation" tags="" position="400,325">Commencing Atlas System Suit Initialisation.
+Life support systems: Activated
+Shield kinetic systems: Online
+Scanner dammage, repair required.
+Aerial Propulsion jetpack: Online
+Multitool and Mining Laser attachment : Operational.
+User initialisation of sequence: [[Complete|Wake up]]</tw-passagedata><tw-passagedata pid="3" name="Wake up" tags="" position="400,500">&lt;&lt;set $plutonium = 0&gt;&gt;
+&lt;&lt;set $zinc = 0&gt;&gt;
+&lt;&lt;set $iron = 0&gt;&gt;
+&lt;&lt;set $titanium =0&gt;&gt;
+&lt;&lt;set $carbon = 0&gt;&gt;
+&lt;&lt;set $thamiun9 = 0&gt;&gt;
+
+&lt;&lt;set $lifesupport = 100&gt;&gt;
+&lt;&lt;set $hazardprotection = 100&gt;&gt;
+&lt;&lt;set $inventory = [] &gt;&gt;
+
+&lt;&lt;set $name = &quot;&quot;&gt;&gt;
+&lt;&lt;print $name&gt;&gt;
+
+--Planet Lazarus (Euclid Galaxy)--
+You discovered this on 16/08/2016 (20:12)
+
+It&#x27;s a weird scenery. Giant green fongues, green toxic gaz...
+Warning Toxic protection falling.
+An holographic mini map is showing on your helmet. You see a waypoint.
+[[Run towards waypoint-&gt;Species]]
+[[Walk towards waypoint|Pu]]
+[[Look around -&gt;Damaged Machinery]] (Caché)
+[[Check planet scan|Planet Scan]]
+[[Check death count|Death Count]]
+[[Check inventory-&gt;Inventory]]
+[[Use your multitool on the green fongues|Green Fongues]]
+</tw-passagedata><tw-passagedata pid="4" name="Species" tags="" position="700,700">A strange alien is running towards you.
+
+[[Scan it|death by animal attack]] (nombre de scan disponible)
+[[Shoot with multitool| kill an animal]] (if no projectile instal = death)
+[[run|enter ship and leave the planet]] (can&#x27;t do if no repair launch thruster)</tw-passagedata><tw-passagedata pid="5" name="death by animal attack" tags="" position="625,825">The strange creature takes you by surprise and bites you.
+
+&lt;&lt;remember $deathCount +=1&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name=" kill an animal" tags="" position="750,825">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="7" name="enter ship and leave the planet" tags="" position="875,825">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="Pu" tags="" position="500,700">You run through a big red crystalline structures.
+[[use your multitool|get pu]]
+[[Continu to run towards the waypoint-&gt;Species]]
+[[Continu to walk towards the waypoint]]
+
+&lt;&lt;if $</tw-passagedata><tw-passagedata pid="9" name="Damaged Machinery" tags="" position="300,700">You find a Damaged Machinery.
+[[INTERACT//SEARCH|Boltcaster]]
+[[Leave-&gt;Wake up]]
+[[Inventory]]</tw-passagedata><tw-passagedata pid="10" name="Planet Scan" tags="" position="100,300">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="11" name="Death Count" tags="" position="100,500">You have died $deathCount times.</tw-passagedata><tw-passagedata pid="12" name="Center of the galaxy" tags="" position="1275,600">You reached the center of the Galaxy. The Great Altas Orb now gives you a choice.
+
+[[Continue in an other galaxy]]
+[[Stay with the Altas]]
+ But you can choose to not choose what the Great Atlas Orb as propose to you and continue your journey with your spaceship.
+ [[Continue journey]]</tw-passagedata><tw-passagedata pid="13" name="Continue in an other galaxy" tags="" position="1400,800">&lt;&lt;forget $deathCount&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="Stay with the Altas" tags="" position="1400,400">&lt;&lt;forget $deathCount&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="Continue journey" tags="" position="1400,600">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="16" name="Boltcaster" tags="" position="200,825">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="17" name="Inventory" tags="" position="100,700">&lt;&lt;if $deathCount gte or eq 1&gt;&gt;You&#x27;re playing PermadeathMode. You lost your previous inventory&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $inventory.length ==0&gt;&gt;Empty Inventory.&lt;&lt;else&gt;&gt;
+
+&lt;&lt;for $pu = 0; $pu &lt; $inventory.length; $pu++&gt;&gt;
+&lt;&lt;print $inventory[$pu]&gt;&gt;
+&lt;&lt;/for&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Portal" tags="" position="1200,100">You follow the path. Suddenly you fall into a gigantic hole. Your propulsion jetpack ease your fall.
+
+You slowly sant up. A gigantic monument stand before you. In it&#x27;s middle you see a hole. You try to enter the [[hole|Portal Hole]]</tw-passagedata><tw-passagedata pid="19" name="Portal Hole" tags="" position="1200,225">Nothing happen.
+
+[[Return to path-&gt;path]]</tw-passagedata><tw-passagedata pid="20" name="path" tags="" position="1200,350">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="21" name="Green Fongues" tags="" position="700,500">[[Inventory]]</tw-passagedata><tw-passagedata pid="22" name="get pu" tags="" position="375,825">&lt;&lt;set: $pu to 50&gt;&gt;
+&lt;&lt;set: $mininglaser to -10&gt;&gt;
+
+You mine the crystalline strucutres and it breaks into your inventory.
+
+[[Inventory]]</tw-passagedata><tw-passagedata pid="23" name="Continu to walk towards the waypoint" tags="" position="500,825">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="24" name="Bubble Wordl" tags="" position="1100,1100">You land you spaceship.
+
+--Planet $name--
+
+The landsacpe is beautiful. You don&#x27;t believe you eyes. In fact you close them. When you reopened them, a giant bubble passses right before you. You tried to touch it, but you do it explode. A loud scream just shout from the explosion. It was like you killed the bubble in an atroce douleur. A sentinel flies towards you and begin to scan you.
+
+[[let the sentinel scan you|sentinel scan]]
+[[Use your multitool|sentinelattack]
+[[Run to your ship and leave|leaveBubblePlanet]]</tw-passagedata><tw-passagedata pid="25" name="sentinel scan" tags="" position="1000,1200">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="26" name="leaveBubblePlanet" tags="" position="1200,1200">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+
